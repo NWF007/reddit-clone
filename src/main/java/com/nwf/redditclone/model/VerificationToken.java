@@ -11,6 +11,7 @@ import java.time.Instant;
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
+@Table(name = "token")
 public class VerificationToken {
 
     @Id
